@@ -16,7 +16,7 @@ function Items({ items, done: doneHeading, onPressItem }) {
   return (
     <View style={styles.sectionContainer}>
       <Text style={styles.sectionHeading}>{heading}</Text>
-      <Text>Hello</Text>
+      <Text>Hello World</Text>
       {items.map(({ id, done, value, title }) => (
         <TouchableOpacity
           key={id}
